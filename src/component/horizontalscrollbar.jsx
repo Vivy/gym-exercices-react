@@ -14,7 +14,6 @@ const LeftArrow = () => {
     </Typography>
   );
 };
-console.log(LeftArrow);
 const RightArrow = () => {
   const { scrollNext } = useContext(VisibilityContext);
 
